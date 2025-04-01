@@ -1,0 +1,73 @@
+*{
+    padding : 0;
+    margin : 0;
+    text-align : center;
+
+}
+ h1{
+    background-color: #081b31;
+    color : white;
+    height : 5rem;
+    line-height : 5rem; /*for vertical line height(for put the heading vertically center)*/
+
+}
+.choice{
+    height : 170px;
+    width : 170px;
+    border-radius : 50%;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height : 150px;
+    width : 150px;
+    object-fit : cover;
+    border-radius : 50%;
+   
+}
+ .choices{
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    gap : 3rem;
+    margin-top :3rem; 
+}
+
+.choice:hover{
+    cursor : pointer;
+    background-color: #081b31;
+}
+
+.score-board{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    padding : 2rem;
+    gap : 5rem;
+}
+
+#user-score,#comp-score{
+    font-size: 4rem;
+}
+ .msg-container{
+    margin-top: 2rem;
+} 
+
+#msg{
+    background-color: #081b31;
+    color : white;
+    font-size : 2rem;
+    display : inline;
+    padding :1rem;
+    border-radius : 1rem;
+
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+
